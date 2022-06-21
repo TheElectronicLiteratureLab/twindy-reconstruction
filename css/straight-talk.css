@@ -1,0 +1,95 @@
+/*-----------------*/
+/*DEFAULT AND PHONE*/
+/*-----------------*/
+
+/*global*/
+#filter {
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(24%, rgba(66,65,11,0.31)),to(rgba(96,56,19,0.85)));
+    background: -webkit-linear-gradient(top,rgba(66,65,11,0.31) 24%,rgba(96,56,19,0.85) );
+    background: linear-gradient(to bottom,rgba(66,65,11,0.31) 24%,rgba(96,56,19,0.85) );
+}
+
+/*text*/
+.page-heading {
+	color: #A38467;
+	margin-bottom: 25px;
+}
+
+.title-straight {
+	margin-bottom: 50px;
+	font-family: 'Alegreya SC', serif; /*Alegreya SC (replacing Copperplate)*/
+	color: #213813;
+	letter-spacing: 25px;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: 0px 0px 9px rgba(255,255,255,0.5),0px 0px 9px rgba(255,255,255,0.5);
+}
+
+.main-straight {
+	padding: 55px 20px 25px 20px;
+	box-shadow: 0px 0px 10px rgba(255,255,255,0.4), 0px 0px 10px rgba(255,255,255,0.4);
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(1%, rgba(96,56,19,0.75)),color-stop(5%, rgba(255,255,255,0.65)));
+	background: -webkit-linear-gradient(top,rgba(96,56,19,0.75) 6px,rgba(255,255,255,0.65) 30px);
+	background: linear-gradient(to bottom,rgba(96,56,19,0.75) 6px,rgba(255,255,255,0.65) 30px);
+	font-family: 'Open Sans';
+	font-size: 1.1em;
+	margin: 0 20px;
+	letter-spacing: 0;
+}
+
+.navigation-straight {
+	text-align: center;
+	font-family: 'Alegreya SC';
+	font-size: 1.2em;
+	color: #C7B299;
+	letter-spacing: 3px;
+}
+
+.navigation-straight a {
+	color: #C7B299;
+}
+
+.navigation-straight a:hover {
+	color: #213813;
+}
+
+.navigation-container {
+	margin: 60px 0 100px 0;
+}
+
+.page-footer {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+.page-footer p {
+	color: #A38467;
+}
+
+
+/*fading text*/
+.text-insert {
+	color: #213813;
+	font-size: 0.8em;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	opacity: 0;
+}
+
+/*------*/
+/*TABLET*/
+/*------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*-------*/
+/*DESKTOP*/
+/*-------*/
+@media only screen and (min-width: 992px) {
+
+}

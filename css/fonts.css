@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url(../fonts/Alegreya_SC/AlegreyaSC-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Alegreya SC';
+  src: url(../fonts/Alegreya_SC/AlegreyaSC-Bold.ttf);
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url(../fonts/Alegreya/Alegreya-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Yellowtail';
+  src: url(../fonts/Yellowtail/Yellowtail-Regular.ttf);
+}

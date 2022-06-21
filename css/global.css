@@ -1,0 +1,319 @@
+/*-----------------*/
+/*DEFAULT AND PHONE*/
+/*-----------------*/
+
+/*global*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+html {
+
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.tidbit-close, .addenda-close, .thanksgiving-close {
+	position: absolute;
+	right: 7px;
+	top: 3px;
+	cursor: pointer;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#filter {
+	background-color: rgba(127,127,127,0.37);/*default filter strength - change in page group*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+a {
+	color: #213813;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #603813;
+	cursor: pointer;
+}
+  	
+/*dots*/
+.large-dot {
+	width: 70px;
+	height: 70px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(126, 63, 5);
+	background-color: #AEC7AE;
+	background-color: rgba(121, 163, 120, 0.6);
+	border-radius: 50px;
+	text-align: center;
+	color: #7E3F05;
+	transition: all .4s ease;
+	cursor: pointer;
+	z-index: 10;
+	font-family: 'Alegreya SC', serif; /*Alegreya SC (replacing Copperplate)*/
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: .8em;
+}
+
+.large-dot:hover {
+	background-color: rgba(121, 163, 120, 0);
+}
+
+.sitemap {
+	position: fixed;
+	top: 45px;
+	left: calc(100% - 80px);
+}
+
+.sitemap p {
+	margin: 15px 0 0 0;
+	height: 35px;
+	line-height: 17px;
+	padding: 0;
+}
+
+
+/*library tidbits*/
+.library-tidbit {
+	z-index: 133;
+    width: 150px;
+    padding: 8px;
+    border-color: #603813;
+    background-color: #A7C3A7;
+    background-color: rgba(121,163,120,0.35);
+    border-radius: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    position: absolute;
+    bottom: -20px;
+    right: 20%;
+    display: none;
+}
+
+.library-tidbit .inner {
+    background-color: rgba(121,163,120,.9);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.library-tidbit span {
+	font-weight: bold;
+}
+
+.title-tidbit {
+	text-align: center;
+	font-weight: bold;
+    color: #603813;
+    margin-bottom: 10px;
+}
+
+.credits-tidbit {
+	font-weight: bold;
+    color: #603813;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #603813;
+    background-color: rgba(96,56,19,0.25);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+
+/*fading text*/
+.text-before {
+	opacity: 0;
+	position: relative;
+	left: -25px;
+}
+
+.event-slide-right-only .text-before {
+	opacity: 1;
+	left: 0;
+}
+
+.text-after {
+	color: #213813;
+	width: 130px;
+	padding-left: 35px;
+	text-align: right;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+	line-height: normal;
+	padding-top: 5px;
+}
+
+.space-below {
+	margin-bottom: 100px !important;
+}
+
+.no-space {
+	margin-bottom: 0 !important;
+}
+
+.small-space {
+	margin-bottom: 25px !important;
+}
+
+/*texts*/
+h2, h3 {
+	text-align: center;
+}
+
+.page-heading {
+	position: relative;
+	font-family: 'Alegreya SC', serif; /*Alegreya SC (replacing Copperplate)*/
+	font-weight: bold;
+	color: #213813;
+	text-align: left;
+	color: #213813;
+	letter-spacing: 20px;	
+	z-index: 4;
+	font-size: .9em;
+	padding: 15px;
+	margin-bottom: 65px;
+}
+
+.page-heading span {
+	display: block;
+	margin-top: 10px;
+}
+
+
+.seperator-heading {
+	font-family: 'Alegreya SC', serif; /*Alegreya SC (replacing Copperplate)*/
+	font-weight: bold;
+	color: #213813;
+	text-align: center;
+	color: #213813;
+	letter-spacing: 15px;
+}
+
+.seperator-heading h3 {
+	font-family: 'Alegreya SC', serif; /*Alegreya SC (replacing Copperplate)*/
+	font-weight: bold;
+	color: #213813;
+	text-align: center;
+	color: #213813;
+	letter-spacing: 12px;
+	font-size: 1.5em;
+}
+
+.main-voice {
+	font-family: 'Alegreya', serif; /*Main Narrative Voice: Alegreya (replacing Copperplate)*/
+	letter-spacing: 1px;
+	color: #241D0D;
+	margin-bottom: 250px;
+}
+
+.next-page, .prev-page {
+	font-family: 'Alegreya SC', serif; /*Main Narrative Voice: Alegreya (replacing Copperplate)*/
+	font-weight: bold;
+	color: #213813;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 0px;
+	display: block;
+	font-size: 1.3em;
+	margin-bottom: 25px;
+	line-height: 1;
+}
+
+.next-page:hover, .next-page:active {
+	color: #603813;
+	text-decoration: none;
+}
+
+.prev-page {
+	font-size: 1.1em;
+}
+
+.page-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-family: 'Alegreya SC';
+	font-weight: bold;
+	text-align: left;
+	font-size: 14px;
+	letter-spacing: 20px;
+	line-height: 15px;
+	color: #603813;
+	padding-left: 30px;
+}
+
+/*------*/
+/*TABLET*/
+/*------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.page-heading {
+		font-size: 1.2em;
+	}	
+
+	.sitemap {
+		left: auto;
+		right: 45px;
+	}
+}
+
+
+/*-------*/
+/*DESKTOP*/
+/*-------*/
+@media only screen and (min-width: 992px) {
+
+	/*texts*/
+
+	.seperator-heading {
+		margin: 30px 0;
+		font-size: 18px;
+		line-height: 31px;
+		letter-spacing: 15px;
+	}
+
+	.main-voice {
+		line-height: 25px;
+		font-size: 23px;
+		padding: 0;
+	}
+
+	.page-heading {
+		font-size: 1.2em;
+		padding: 25px 30px;
+	}
+
+	.page-heading span {
+		display: inline;
+		margin-top: 0;
+	}
+
+	.next-page, .prev-page {
+		letter-spacing: 11px;
+	}
+
+	.sitemap {
+		left: auto;
+		right: 45px;
+	}
+}

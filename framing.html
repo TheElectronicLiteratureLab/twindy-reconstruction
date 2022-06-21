@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+
+  <title>FRAMING</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/global.css" rel="stylesheet">
+  <link href="css/main-narrative.css" rel="stylesheet">
+  
+  <style>
+  	/*-----------------*/
+  	/*DEFAULT AND PHONE*/
+  	/*-----------------*/
+  	
+  	/*global*/
+	body {
+		background: #FFFFFF url('img/fisherman.jpg') no-repeat center top scroll;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	
+	#filter {
+		background-color: rgba(255,255,255,0.25);
+	}
+
+	.page-title {
+		margin-bottom: 50px;
+	}
+
+	#event2 .text-after, #event2 .text-after1 {
+	color: #213813;
+	width: 100px;
+	padding-left: 35px;
+	padding-top: 3px;
+	text-align: right;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+#event2 .text-after2 {
+	color: #213813;
+	width: 80%;
+	padding-left: 110px;
+	margin-top: 80px;
+	text-align: left;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}	  
+
+
+#event3 .text-after, #event3 .text-after1 {
+	color: #213813;
+	width: 125px;
+	padding-left: 25px;
+	margin-left: -25px;
+	padding-top: 6px;
+	text-align: right;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+
+#event8 .text-after, #event8 .text-after1 {
+	color: #213813;
+	width: 130px;
+	padding-left: 35px;
+	margin-left: -35px;
+	margin-top: 4px;
+	text-align: right;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+#event8 .text-after2 {
+	color: #213813;
+	width: 100%;
+	margin-left: -100px;
+	margin-top: 82px;
+	text-align: left;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+#event9 .text-after, #event9 .text-after1 {
+	color: #213813;
+	width: 130px;
+	padding-left: 35px;
+	margin-left: -35px;
+	margin-top: 3px;
+	text-align: right;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+#event9 .text-after2 {
+	color: #213813;
+	width: 100%;
+	padding-left: 57px;
+	margin-top: 130px;
+	margin-left: -85px;
+	text-align: left;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+
+#event10 .text-after, #event10 .text-after1 {
+	color: #213813;
+	width: 130px;
+	padding-left: 35px;
+	margin-left: -25px;
+	margin-top: 4px;
+	text-align: right;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+#event10 .text-after2 {
+	color: #213813;
+	width: 100%;
+	padding-left: 70px;
+	margin-top: 180px;
+	margin-left: -175px;
+	text-align: left;
+	position: absolute;
+	font-size: 0.8em;
+	opacity: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+#event17 .text-after {
+	margin-left: -110px;
+	margin-top: 20px;
+}
+
+#into {
+	display: block;
+	text-align: center;
+}
+
+#of {
+	display:block;
+	text-align: left;
+}
+
+#the-people {
+	display:block;
+	text-align: right;
+}
+
+.small-space {
+	margin-bottom: 50px !important;
+}
+
+.space-80 {
+	margin-bottom: 80px !important;
+}
+
+.more-space {
+	padding-bottom: 100px !important;
+}
+
+.xl-space {
+	padding-bottom: 150px !important;
+}
+
+.less-space {
+	margin-bottom: -120px;
+}
+  
+  	/*------*/
+  	/*TABLET*/
+  	/*------*/
+  	@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+		#event8 .text-after2 {
+			margin-left: -395px;
+		}
+		
+		#event15 .text-after {
+			margin-top: 20px;
+			margin-left: -45px;
+		}
+  	
+  	}
+  	
+  	/*TABLET LANDSCAPE*/
+  	@media only screen and (min-width: 768px) and (orientation: landscape) {
+		.align-right {
+			margin-left: 60px !important;
+		}
+	}
+  	
+  	
+  	/*-------*/
+  	/*DESKTOP*/
+  	/*-------*/
+  	@media only screen and (min-width: 992px) {
+
+		#event8 .text-after2 {
+			color: #213813;
+			width: 100%;
+			margin-left: -394px;
+			margin-top: 82px;
+			text-align: left;
+			position: absolute;
+			font-size: 0.8em;
+			opacity: 0;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 17px;
+			font-weight: bold;
+			font-style: italic;
+			letter-spacing: 0;
+		}
+
+		#event9 .text-after2 {
+			color: #213813;
+			width: 100%;
+			padding-left: 57px;
+			margin-top: 103px;
+			margin-left: 0;
+			text-align: left;
+			position: absolute;
+			font-size: 0.8em;
+			opacity: 0;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 17px;
+			font-weight: bold;
+			font-style: italic;
+			letter-spacing: 0;
+		}
+		
+		#event10 .text-after2 {
+			color: #213813;
+			width: 100%;
+			padding-left: 70px;
+			margin-top: 154px;
+			margin-left: 0;
+			text-align: left;
+			position: absolute;
+			font-size: 0.8em;
+			opacity: 0;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 17px;
+			font-weight: bold;
+			font-style: italic;
+			letter-spacing: 0;
+		}
+
+		#event17 .text-after {
+			margin-left: -45px;
+			margin-top: .5px;
+		}
+	  }
+	  
+
+  
+  	
+  </style>
+
+</head>
+
+<body>
+  <!-- Background Image Filter-->
+  <div id="filter"></div>
+
+  <!-- Site Map -->
+  <a href="table-of-contents.html?parentpage=framing.html"><div class="large-dot sitemap">
+  	<p>SITE<br>
+  	MAP</p>
+  </div></a>
+
+  <!-- Page Content -->
+  <h2 class="page-heading">The World Is Not Done Yet. <span>Part Two.</span></h2>
+
+  <section class="container">
+      
+	<div class="row">
+		<!--section 1-->
+
+		<div id="trigger-unique1" class="col-lg-12">
+			<div class="straight-link"><a title="To further explanation of Cyber Framing" href="straight-talk-cyber-framing.html?parentpage=framing.html">STRAIGHT<span></span>TALK:<span></span>Cyber<span></span>Framing</a></div>
+			<h1 class="page-title">Framing</h1>
+		</div>
+
+		<!--s link-->
+		<div id="trigger4" class="col-lg-12">
+			<a class="s-mother" title="To the SheStatement edited from this screen" href="shestates-shestitches.html?parentpage=framing.html">S</a>
+		</div>
+
+		<!--body text 1-->
+		<div class="col-lg-1"></div>
+		<div id="event1" class="col-lg-10 main-voice event-cascade small-space">
+			<p id="event2" class="event-slide-double-opposite xl-space"><span id="trigger2"></span>Tsunamic Cyber’s exponentialism causes trouble remembering there’s a frame<br> involved.<span class="text-after1">And we inside the frame.</span><span class="text-after2">Or, willfully put ourselves there.</span></p>
+			<p id="event3" class="event-slide-right-only xl-space"><span id="trigger3" class="text-before">Not to mention, framing<span class="text-superscript">the subject</span> to share flattens to fit.</span><span class="text-after">Which, alas, empties out the treasured meaning we all seek.  Poof!</span></p>
+			<p id="event4" class="event-slide"><span class="text-before">Certainly, we alter ourselves.<span class="text-superscript">a delicate bargain</span>  And what we hope to comprehend in the framing.</span></p>
+		</div>
+		<div class="col-lg-1"></div>
+
+		<!--tidbits-->
+		<div class="col-lg-12 dot-column">
+			<div class="small-dot-container">
+				<div class="small-dot" data-target="tidbit1"></div><div class="small-dot" data-target="tidbit2"></div><div class="small-dot" data-target="tidbit3"></div>
+			</div>
+			<div id="tidbit1" class="library-tidbit">
+				<p class="tidbit-close">X</p>
+				<div class="inner">
+					<div class="title-tidbit">A TIDBIT FROM MY LIBRARY:</div>
+					<p><span>“Women’s presence</span> in public becomes with startling frequency an invasion of their private parts, sometimes literally, sometimes verbally.  Even the English language is rife with words and phrases that sexualize women’s walking…Of course women’s walking is often construed as performance rather than transport, with the implication that women walk not to see but to be seen, not for their own experience but for that of a male audience…</p>
+				</div>
+			</div>
+			<div id="tidbit2" class="library-tidbit">
+				<p class="tidbit-close">X</p>
+				<div class="inner">
+					<p><span>…In Middle Assyria…</span>women were divided into two categories.  Wives and widows ‘who go out onto the street’ may not have their heads uncovered, said the law; prostitutes and slave girls, contrarily, must not have their heads covered.  Those who illicitly wore a veil could be given fifty lashes or have pitch poured over their heads…</p>
+					<p><span>Many things</span> are remarkable about the appearance of this law…</p>
+				</div>
+			</div>
+			<div id="tidbit3" class="library-tidbit">
+				<p class="tidbit-close">X</p>
+				<div class="inner">
+					<p><span>It makes a women's</span> sexuality a public rather than a private matter.  It equates visibility with sexual accessibility, and it requires a material barrier rather than a woman’s morality or will to make her inaccessible to passersby.  It separates women into two publicly recognized castes based on sexual conduct but allows men, whose sexuality remains private, access to both castes.”</p>
+					<div class="credits-tidbit"><a href="bibliography.html#wanderlust-history-of-walking">Wanderlust.  A History of Walking <br /> Rebecca Solnit </a></div>
+				</div>
+			</div>
+		</div>
+
+		<!--separator-->
+		<div id="empathetic" class="col-lg-12 seperator-heading">
+			<a id="trigger5" href="#empathetic"><h3>Empathetic Bonds</h3></a>
+		</div>
+
+		<!--mother memory-->
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10 mother-box">
+			<h4 class="title-memory-mother">MOTHER<br>BOARD</h4>
+			<div id="event5" class="event-fade-multi no-cascade">
+				<p class="main-memory-mother event-fade text-insert align-left">Data processing in the payroll department was considered acceptable female employment; many of the women, like my mom, were wives of university guys. The sound of their modest heels across the linoleum mixed with the shuffling of the machines processing those stacked cards the women sorted into them.</p>
+				<p class="main-memory-mother event-fade text-insert align-right"><span></span>Womantouch collecting, placing and picking up again.  The circuitry, still.</p>
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+
+		<!--section2-->
+
+		<div class="col-lg-12">
+			<div class="straight-link"><a title="To further thoughts on emotional zing." href="straight-talk-emotional-zing-of-our-stories.html?parentpage=framing.html&parentanchor=empathetic">STRAIGHT<span></span>TALK:<span></span>The<span></span>Emotional<span></span>Zing<span></span>of<span></span>Our<span></span>Stories</a></div>
+		</div>
+
+		<!--separator-->
+		<div id="generative" class="col-lg-12 seperator-heading">
+			<a href="#generative"><h3>Generative Sparking</h3></a>
+		</div>
+
+		<!--s link-->
+		<div class="col-lg-12">
+			<a class="s-mother" title="To the SheStatement edited from this screen" href="shestates-forherthequestion.html?parentpage=framing.html&parentanchor=generative">S</a>
+		</div>
+
+		<!--body text 2-->
+		<div class="col-lg-1"></div>
+		<div id="event7" class="col-lg-10 main-voice event-cascade">
+			<p id="event8" class="event-slide-double-opposite xl-space">What works<span class="text-superscript">the tell</span> when it works in a work of expression?<span class="text-after1">Not a lack. Not void.</span><span class="text-after2">Not that feeling other, which is less than.</span></p>
+			<p id="event9" class="event-slide-double-opposite xl-space"><span id="trigger-unique2">A </span><span class="text-superscript">correspondence</span> want stirred within.  Illusive sparking urge to speak.  An adding, an<br>and/also.<span class="text-after1">Yes a naming, a filling in the blanks.</span><span class="text-after2">Knowns not known before.</span></p>
+			<p id="event10" class="event-slide-double-opposite">A want to contribute, too.<span class="text-after1">What's the want of?  A spreading knit giving form.</span><span class="text-after2">How we grow one another.</span></p>
+		</div>
+		<div id="trigger9" class="col-lg-1"></div>
+
+		<!--chapbook link-->
+		<div id="trigger10" class="col-lg-5"></div>
+		<div class="col-lg-2">
+			<div class="link-chapbook"><a title="Conversations with an OldBuck" href="chapbook-conversation-with-an-oldbuck.html?parentpage=framing.html&parentanchor=generative">A<br>
+			Small<br>
+			Chapbook</a></div>
+		</div>
+		<div class="col-lg-5"></div>
+
+		<!--tidbits-->
+		<div class="col-lg-12 dot-column">
+			<div class="small-dot-container">
+				<div class="small-dot" data-target="tidbit4"></div>
+			</div>
+			<div id="tidbit4" class="library-tidbit">
+				<p class="tidbit-close">X</p>
+				<div class="inner">
+					<div class="title-tidbit">A TIDBIT FROM MY LIBRARY:</div>
+					<p><span>“My partner Harry has a tattoo </span>that says – it’s from Edouard Glissant – on one arm it says, ‘Our boats are open’; on the other it says, ‘and we sail them for everyone.’  It’s something we talk about a lot.  How to make something very specific and very granular and very idiosyncratic, that somehow feels like an open boat?  It’s kind of a great mystery.”</p>
+					<div class="credits-tidbit"><a href="bibliography.html#the-cut"> Maggie Nelson Interview in <br /> The Cut </a></div>
+				</div>
+			</div>
+		</div>
+
+		<!--separator-->
+		<div id="desktop" class="col-lg-12 seperator-heading">
+			<a id="trigger11" href="#desktop"><h3>Desktop Publishing</h3></a>
+		</div>
+
+		<!--mother memory-->
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10 mother-box">
+			<h4 class="title-memory-mother"><span id="into">INTO THE HANDS</span><span id="of">OF</span><span id="the-people">THE PEOPLE</span></h4>
+			<div id="event11" class="event-fade-multi no-cascade">
+				<p class="main-memory-mother event-fade text-insert align-left">It’s said hardly anyone pays attention to paper publishing anymore.  And what finds its way to print is disposable or fetishized, so tactile, so over-the-top materially present it makes people swoon with possessive desire.  Bookmarks for something lost.</p>
+				<p class="main-memory-mother event-fade text-insert align-right">We thought back then, when the personal computer arrived on everyone’s desk in that breathtaking brush aside of typewriters, it would put printing into the hands of the people.  And it has, in its way.  Although not entirely as we imagined.</p>
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+
+		<!--section 3-->
+
+		<div class="col-lg-12">
+			<div class="straight-link"><a title="To further explanation of these tattered edges" href="straight-talk-tattered-edges.html?parentpage=framing.html&parentanchor=desktop">STRAIGHT<span></span>TALK:<span></span>The<span></span>Tattered<span></span>Edges</a></div>
+		</div>
+
+		<!--separator-->
+		<div id="voice" class="col-lg-12 seperator-heading">
+			<a href="#voice"><h3>Voice of the Many</h3></a>
+		</div>
+
+		<!--s link-->
+		<div class="col-lg-12">
+			<a class="s-mother" title="To the SheStatement edited from this screen" href="shestates-she-swaited.html?parentpage=framing.html&parentanchor=voice">S</a>
+		</div>
+
+		<!--addendas-->
+		<div class="col-lg-11"></div>
+		<div class="col-lg-1">
+			<a data-target="addenda-modal1" title="Further considerations on &ldquo;a participatory narrative&rdquo;" class="addenda">ADDENDA</a>
+		</div>
+		
+		<div class="col-lg-12">
+			<div id="addenda-modal1" class="addenda-modal">
+				<h4>ADDENDUM<br>
+				FOUR</h4>
+				<span>(Nascent Multilogue entry)</span>
+				<p>A PARTICIPATORY NARRATIVE</p>
+				<p class="addenda-close">X</p>
+				<p>For some of you I worry there might be a conflation of this idea of a Voice of the Many with the everynook&cranny social media floods of the Tsunamic Cyber.  There is overlap.  They inform each other.  But it’s tricky.</p>
+				<p>Tricky first, because our social media floods seem dominated by the extraordinarily cruel.  A sad bringing to surface and unfortunate celebration of some of our least conscious-of-connection traits.</p>
+				<p>Second, social media is trolled for appropriation by The Sell.  In this larcenous use, not only are the most outrageous/loudest set in frames atop the heap, but the tattered edges - a potential source of reboot - are open pit mined for raw material to inject emotional spark/dimension into those flat frames.</p>
+				<p>This wasteful, quick carbon burn stirs up our possessive desire and the consequent yearn becomes, when unchecked, an endorsement of the display of our brutal, “in your face” primal.  “My wealth given meaning by your lack.”  We of the Void understand.</p>
+				<p>For those of us in the Voice of the Many working to encourage literate being, the trick it seems to me, is in recognizing and eluding the grooming, false seduction and capture of this framing. Perhaps it’s the trick for contributing social media, too.</p>
+				<p>I imagine this Voice of the Many to be a tributary of the larger, continually breaking frame, sometimes cacophonous, Participatory Narrative; a sort of floating coalescence of those on the alert for containment</p>
+			</div>
+		</div>
+
+	<!--body text 3-->
+	<div class="col-lg-1"></div>
+	<div id="event13" class="col-lg-10 main-voice event-cascade space-below">
+		<p id="event14" class="event-slide-right-only space-below"><span id="trigger14" class="text-before">Tsunamic Cyber ignites<span class="text-superscript">a flooded riparian plain</span> a participatory narrative.</span><span class="text-after">For me, a woman, a chance.</span></p>
+		<p id="event15" class="event-slide-right-only xl-space"><span id="trigger-unique3" class="text-before">Here, opens a voice of the many in an ebb and flow of now and everything come before; we within the single wound together, defying measure, transmitting expression.</span><span class="text-after">For me, a woman, this is not all loss.</span></span></p>
+		<p id="event16" class="event-slide-right-only space-below"><span id="trigger16" class="text-before">And spun from this chance<span class="text-superscript">coaxial</span> comes the possible,<span class="text-superscript">all's within reach</span> an opening spiral of empathetic bonds.</span></p>
+		<p id="event17" class="event-slide"><span id="trigger17" class="text-before">Breathing room in a crowd's traverse of invisibility. Better that than body, only.</span><span class="text-after">And, thankfully, all's not yet entirely framed.</span></p>
+	</div>
+	<div class="col-lg-1"></div>
+	
+	<!--chapbook link-->
+	<div class="col-lg-5"></div>
+	<div class="col-lg-2">
+		<div class="link-chapbook"><a title="Riparian Ground" href="chapbook-riparian-ground.html?parentpage=framing.html&parentanchor=voice">A<br>
+		Small<br>
+		Chapbook</a></div>
+	</div>
+	<div class="col-lg-5"></div>
+
+	<!--tidbits-->
+	<div class="col-lg-12 dot-column">
+		<div class="small-dot-container">
+			<div class="small-dot" data-target="tidbit5"></div><div class="small-dot" data-target="tidbit6"></div>
+		</div>
+		<div id="tidbit5" class="library-tidbit">
+			<p class="tidbit-close">X</p>
+			<div class="inner">
+				<div class="title-tidbit">A TIDBIT FROM MY LIBRARY:</div>
+				<p><span>“Hindu Philosophers</span>  have long described the experience of “being” as a web--jaal.  Genes form the threads of the web; the detritus that sticks is what transforms every individual web into a being.  There is an exquisite precision in that mad scheme.  Genes must carry out programmed responses to environments-otherwise, there would be not conserved form...</p>
+			</div>
+		</div>
+		<div id="tidbit6" class="library-tidbit">
+			<p class="tidbit-close">X</p>
+			<div class="inner">
+				<p>...But they must also leave exactly enough room for the vagaries of chance to stick…. An upright organism with opposable thumbs is thus built from a script, but built to go off script.  We all one such unique variant of one such organism a “self.”</p>
+				<div class="credits-tidbit"><a href="bibliography.html#the-gene-a-history"> The Gene An Intimate History. <br />  Siddhartha Mukherjee. </a></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="col-lg-12 next-page-container">
+		<a class="prev-page" title="Back to Refusal of Tribalism" href="refusal-of-tribalism.html">Back to: Refusal of Tribalism</a>
+		<a class="next-page" title="Forward to Mutualism" href="mutualism.html">Fwd to: Mutualism</a>
+	</div>
+	
+	<div class="col-lg-12 page-footer">
+		<p>The World is Not Done Yet</p>
+	</div>
+
+		
+
+
+
+
+	<!----------------------------------->
+		
+		
+	</div>
+	<!-- /.row -->
+
+  </section>
+  <!-- /.container -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/framing.js"></script>
+
+</body>
+
+</html>
